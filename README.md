@@ -2,7 +2,6 @@
 
 A modern, full-stack web application for managing employee data with a sleek black and white minimalist theme. Built with React, Node.js, Express, and SQLite.
 
-![Employee Management System](https://github.com/user/employee-data-management/blob/main/Screenshot%202025-10-01%20at%2012.56.22%20PM.png)
 
 ## ✨ Features
 
@@ -520,18 +519,4 @@ npm run build
    - Ensure no server is running on port 5000 during tests
    - Clear any test database files
 
-## 📄 License
 
-MIT License - feel free to use this project for learning and development.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Add tests for new features
-4. Ensure all tests pass
-5. Submit a pull request
-
----
-
-**Happy Coding! 🎉**
