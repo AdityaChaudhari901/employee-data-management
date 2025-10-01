@@ -1,0 +1,35 @@
+{
+  "name": "employee-data-management",
+  "version": "1.0.0",
+  "description": "A fullstack CRUD application for managing employee data",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "frontend": "cd frontend && npm start",
+    "backend": "npm start"
+  },
+  "keywords": ["employee", "management", "crud", "express", "react", "sqlite"],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "nodemon": "^3.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "testMatch": ["**/__tests__/**/*.js"],
+    "testPathIgnorePatterns": ["frontend/"]
+  }
+}
